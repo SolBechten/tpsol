@@ -1,0 +1,23 @@
+
+
+.confBsAs{
+    background-image: url("./images/ba1.jpg");
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.confBsAs .shadow{
+    height: 100%;
+    background-color: rgba(000, 000, 000, 0.3);
+
+}
+.confBsAs .container{
+    height: 100%;
+    color: aliceblue;
+}
+
+
+
+
