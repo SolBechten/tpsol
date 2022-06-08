@@ -1,5 +1,4 @@
 
-
 .confBsAs{
     background-image: url("./images/ba1.jpg");
     height: 100vh;
@@ -17,6 +16,323 @@
     height: 100%;
     color: aliceblue;
 }
+
+/* SPEAKERS */
+.speakers .title {
+    text-align: center;
+  }
+  
+  .title h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  
+  .speakers .container-speakers {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+  }
+  
+  .speakers .card {
+    width: 30%;
+    min-width: 300px;
+  }
+  
+  .speakers .card img {
+    width: 100%;
+  }
+  
+  .speakers .card :not(img) {
+    padding: 0 1rem;
+  }
+  
+  .card .skills {
+    margin-top: 1rem;
+    display: flex;
+  }
+  
+  .card .skills h6 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+  
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem;
+  }
+  
+  .card p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .card .skills .yellow {
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+  }
+  
+  .card .skills .cyan {
+    background-color: rgb(0, 195, 255);
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .card .skills .grey {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .card .skills .magenta {
+    background-color: rgb(161, 18, 49);
+    color: white;
+    border-radius: 5px;
+  }
+
+
+.container-cta {
+  margin-top: 1rem;
+}
+
+.container-cta {
+  display: flex;
+}
+
+.container-cta img {
+  width: 50vw;
+  margin: 0;
+}
+
+.container-cta .cta-content {
+  background-color: var(--gray-800);
+  color: var(--gray-200);
+  padding: 1rem;
+}
+
+.container-cta .cta-content h2 {
+  font-weight: 600;
+}
+
+.container-cta .btn {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  color: var(--gray-200);
+}
+
+.container-cta .btn-transparent {
+  border: 1px solid var(--gray-200);
+}
+
+.container-cta .btn-transparent:hover {
+  background-color: rgba(255, 255, 255, .55);
+  color: var(--gray-900);
+  border: 1px solid rgba(255, 255, 255, .55);
+  transition: 0.5s;
+}
+
+
+.container-cta {
+  margin-top: 1rem;
+}
+
+.container-cta {
+  display: flex;
+}
+
+.container-cta img {
+  width: 50vw;
+  margin: 0;
+}
+
+.container-cta .cta-content {
+  background-color: var(--gray-800);
+  color: var(--gray-200);
+  padding: 1rem;
+}
+
+.container-cta .cta-content h2 {
+  font-weight: 600;
+}
+
+.container-cta .btn {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  color: var(--gray-200);
+}
+
+.container-cta .btn-transparent {
+  border: 1px solid var(--gray-200);
+}
+
+.container-cta .btn-transparent:hover {
+  background-color: rgba(255, 255, 255, .55);
+  color: var(--gray-900);
+  border: 1px solid rgba(255, 255, 255, .55);
+  transition: 0.5s;
+}
+
+
+/* TICKETS */
+.tickets .container-tickets {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .tickets-category {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem;
+  }
+  
+  .tickets-category .estudiante,
+  .trainee,
+  .junior {
+    width: 30%;
+    min-width: 170px;
+    text-align: center;
+    padding: 2rem;
+    margin: rem 0.5rem;
+    
+  }
+  
+  .tickets-category .estudiante:hover,
+  .trainee:hover,
+  .junior:hover {
+    transform: scale(0.97);
+  }
+  
+  .tickets-category h2 {
+    font-size: 1.5rem;
+  
+  }
+  
+  .tickets-category h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .tickets-category h5 {
+    font-size: 1rem;
+    color: var(--gray-700);
+  }
+  
+  .tickets-category h6 {
+    font-size: 0.7rem;
+    color: var(--gray-600);
+  }
+  
+  .tickets-category .estudiante {
+    border-radius:2px;
+    border: 2px solid rgb(57, 57, 245);
+  }
+  
+  
+  .tickets-category .trainee {
+    border-radius: 2px;
+    border: 2px solid rgb(26, 111, 26);
+  }
+  
+  .tickets-category .junior {
+    border-radius: 2px;
+    border: 2px solid rgb(247, 176, 46);
+  }
+  
+  
+  .container-tickets .tickets-text {
+    text-align: center;
+  }
+  
+  .tickets-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .tickets-form .ticketsFirstName,
+  .ticketsLastName {
+    width: 49%;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid var(--gray-300);
+    padding: 5px;
+  }
+  
+  .tickets-form .ticketsEmail {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid var(--gray-300);
+    padding: 4px;
+  }
+  
+  .tickets-form .labelTicketsQuantity,
+  .labelTicketsCategory {
+    width: 49%;
+    margin: 0.5rem 0;
+  }
+  
+  .tickets-form .ticketsQuantity,
+  .ticketsCategory {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid var(--gray-300);
+    padding: 4px;
+  }
+  
+  .tickets-form .ticketsCategory {
+    background-color: transparent;
+    color: var(--gray-600);
+  }
+  
+  
+  .tickets-form .ticketsOutput {
+    width: 100%;
+    background-color: rgba(81, 198, 252, 0.375);
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    color: var(--gray-900);
+  }
+  
+  .ticketsOutput .ticketsValue {
+    float: left;
+    }
+  
+  .ticketsOutput .ticketsBuy {
+  float: right;
+  cursor: pointer;
+  }
+  
+  .tickets-form .ticketsBuy::after {
+    font: var(--fa-font-solid);
+    content: "\f07a";
+  }
+  
+  
+  .tickets-form .btnTickets {
+    width: 49%;
+    background-color: #157847;
+    color: var(--gray-100);
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+  }
 
 
 
