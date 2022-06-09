@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es">
 
@@ -19,7 +20,7 @@
 
 <body>
 
-  <!--Navbar-->
+  <!--NAVBAR-->
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -31,9 +32,6 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-        
-        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
 
@@ -77,51 +75,47 @@
   </div>
   </section>
 
-  <figure class="text-center">
-    <h7 class="titulo">Conoce a los</h7>
-    <h1 class="titulo">oradores</h1>
-  </figure>
- 
-
-  <!--Card 1-->
-    
-        <div class="row">
-            <div class="col-sm">
-                <div class="card w-100 card-border mb-5">
-                    <img src="images/steve.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <button type="button" class="btn btn-warning btn-sm">JavaScript</button> 
-                            <button type="button" class="btn btn-info btn-sm">React</button>
-                            <h4>Steve Jobs</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                </div>
+   <!-- ORADORES-->
+   <section class="oradores" id="oradores">
+    <div class="title">
+        <h6>CONOCE A LOS</h6>
+        <h2>ORADORES</h2>
+    </div>
+    <div class="container-oradores">
+        <div class="card">
+            <img src="./images/steve.jpg" alt="Steve Jobs">
+            <div class="skills">
+                <h6 class="yellow">JavaScript</h6>
+                <h6 class="cyan">React</h6>
             </div>
-            <div class="col-sm">
-                <div class="card w-100 card-border mb-5">
-                    <img src="images/bill.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <button type="button" class="btn btn-warning btn-sm">JavaScript</button> 
-                            <button type="button" class="btn btn-info btn-sm">React</button>
-                            <h4>Bill Gates</h4> 
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                </div>
+            <h3>Steve Jobs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, expedita pariatur officiis dicta
+                tempore repellat!</p>
+        </div>
+        <div class="card">
+            <img src="./images/bill.jpg" alt="Bill Gates">
+            <div class="skills">
+                <h6 class="yellow">JavaScript</h6>
+                <h6 class="cyan">React</h6>
             </div>
-            <div class="col-sm">
-                <div class="card w-100 card-border mb-5">
-                    <img src="images/ada.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <button type="button" class="btn btn-secondary btn-sm">Negocios</button> 
-                            <button type="button" class="btn btn-danger btn-sm">Startups</button>
-                            <h4>Ada Lovelace</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                </div>
+            <h3>Bill Gates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, expedita pariatur officiis dicta
+                tempore repellat!</p>
+        </div>
+        <div class="card">
+            <img src="./images/ada.jpeg" alt="Ada Lovelace">
+            <div class="skills">
+                <h6 class="grey">Negocios</h6>
+                <h6 class="magenta">Startups</h6>
             </div>
+            <h3>Ada Lovelace</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, expedita pariatur officiis dicta
+                tempore repellat!</p>
         </div>
     </div>
-</div>  
+</section>
+    
+        
 
 <!--Card 2-->
 
@@ -149,7 +143,7 @@
   <h7 class="titulo">Anótate como orador para dar una<p><abbr title="charla ignite">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</h7></p>
 </figure>
 
-<!--Formulario-->
+<!--FORMULARIO-->
 <div class="container class="text-center">
 <div class="row">
   <div class="col">
@@ -178,8 +172,71 @@
     </div>
 </div>
 
+   <!-- TICKETS -->
+   <div id="tickets" class="tickets">
+    <div class="container-tickets">
+        <div class="tickets-category">
+            <div class="estudiante">
+                <h3>Estudiante</h3>
+                <h5>Tiene un descuento</h5>
+                <h2>80%</h2>
+                <h6>* presentar documentación</h6>
+            </div>
+            <div class="trainee">
+                <h3>Trainee</h3>
+                <h5>Tiene un descuento</h5>
+                <h2>50%</h2>
+                <h6>* presentar documentación</h6>
+            </div>
+            <div class="junior">
+                <h3>Junior</h3>
+                <h5>Tiene un descuento</h5>
+                <h2>15%</h2>
+                <h6>* presentar documentación</h6>
+            </div>
+        </div>
+        <div class="tickets-text">
+            <h6>VENTA</h6>
+            <h1>VALOR DE TICKET $200</h1>
+        </div>
 
-<!--Footer-->
+
+        <form class="ticketsForm" action="">
+            <div class="tickets-form">
+              <div class="container class="text-center">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                  </div>
+                </div>
+                <input class="form-control" type="text" placeholder="Correo" aria-label="default input example">
+                <div class="labelTicketsQuantity">
+                    <label for="Cantidad">Cantidad</label>
+                    <input id="ticketsQuantity" type="text" class="ticketsQuantity" name="Cantidad"
+                        placeholder="Cantidad">
+                </div>
+                <div class="labelTicketsCategory">
+                    <label for="Categoria">Categoria</label>
+                    <select name="Categoria" class="ticketsCategory">
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                    </select>
+                </div>
+                <!-- <output class="ticketsOutput"><span class="ticketsValue">Total a pagar: </span><span class="ticketsBuy"><i class="fa-solid fa-cart-shopping"></i> Comprar</span></output> -->
+                <output class="ticketsOutput"><span class="ticketsValue">Total a pagar: <span><span class="ticketsBuy"></span></output>
+                <button id="ticketsBorrar" type="reset" class="btnTickets" name="Borrar">Borrar</button>
+                <button id="ticketsResumen" class="btnTickets" name="Resumen">Resumen</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<!--FOOTER-->
 
 <footer class="footer text-center">
   <div class="container-footer">
@@ -193,6 +250,11 @@
   </div>
 
 </footer>
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 </body>
 
